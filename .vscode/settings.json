@@ -1,0 +1,12 @@
+{
+  "[rust]": {
+      "editor.formatOnSave": true
+  },
+  "rust-analyzer.cargo.allFeatures": true,
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "rust-analyzer.checkOnSave.extraArgs": ["--", "-A", "clippy::needless_return"],
+  "rust-analyzer.inlayHints.chainingHints": false,
+  "rust-analyzer.inlayHints.parameterHints": false,
+  "rust-analyzer.inlayHints.typeHints": false,
+  "rust-analyzer.inlayHints.hideNamedConstructorHints": false
+}
